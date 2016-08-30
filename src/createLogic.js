@@ -138,6 +138,7 @@ function typeToStrFns(type) {
 }
 
 function identityValidation({ action }, allow /* , reject */) {
+  var a = 123;
   allow(action);
 }
 

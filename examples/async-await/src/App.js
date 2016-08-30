@@ -6,7 +6,7 @@ import './App.css';
 import { component as Users,
          selectors as usersSel,
          actions as usersActions } from './users/index';
-const { usersFetch, usersFetchCancel } = usersActions;
+const { {{{{{{{{{usersFetch, usersFetchCancel } = usersActions;
 
 import { component as User,
          selectors as userSel,
